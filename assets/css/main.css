@@ -1,0 +1,67 @@
+*{margin: 0; padding: 0;}
+.page{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.container .logo img{
+	width: 100%;
+	height: 100%;
+}
+.container .find button i{
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+}
+/* RWD */
+	/* Các thiết bị cực nhỏ(điện thoại, 600px trở xuống) */
+@media screen and (max-width: 600px){
+	.page{
+		width: 100%;
+		height: auto;
+	}
+	.page .one{width: 100%; height: 250px;}
+	.page .two{width: 100%; height: 200px;}
+	.page .three{width: 100%; height: 600px;}
+	.page .four .content1{width: 100%; 
+		height: 1300px;}
+	.page .four .content1 .screen .card{
+		margin-bottom: 20px;
+	}
+	.page .five{width: 100%; height: auto;}
+}
+/* Thiết bị nhỏ (máy tính bảng dọc, điện thoại lớn, 600px trở lên) */
+	@media screen and (min-width: 600px) {
+	.page{
+	  	width: 100%;
+	  	height: auto;
+	  }
+	.page .one{width: 100%; height: 250px;}
+	.page .two{width: 100%; height: 180px;}
+	.page .three{width: 100%; height: 600px;}
+	.page .four .content1{width: 100%; 
+		height: 1300px;}
+	.page .four .content1 .screen .card{
+		margin-bottom: 20px;
+	}
+	.page .five{width: 100%; height: auto;}
+	}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.page{
+	  	width: 100%;
+	  	height: auto;
+	  }
+	.page .one{width: 100%; height: 130px;}
+	.page .two{width: 100%; height: 130px;}
+	.page .three{width: 100%; height: 600px;}
+	.page .four .content1{width: 100%; 
+		height: 500px;}
+	.page .four .content1 .screen .card{
+		margin-bottom: 20px;
+		height: 400px;
+	}
+	.page .five{width: 100%; height: auto;}
+	}
+
+

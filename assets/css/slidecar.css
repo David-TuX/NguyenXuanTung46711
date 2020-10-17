@@ -1,0 +1,30 @@
+.slide-car{
+	width: 100%;
+	height: auto;
+}
+.slide-car .car{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.slide-car img{
+	width: 105%;
+	height: 90%;
+	background-size: cover;
+}
+.slide-car .text1 .col-md-3{
+	width: 100%;
+}
+.slide-car p{
+	text-align: center;
+	font-weight: bold;
+}
+.slide-car img:hover{
+	-ms-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: 1s;	
+}
+.col-md-3{
+	overflow: hidden;
+}

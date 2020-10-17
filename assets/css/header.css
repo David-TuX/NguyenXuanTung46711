@@ -1,0 +1,67 @@
+.one{
+	width: 100%;
+	height: 75px;
+	/* background-color: gray; */
+}
+.container{
+	width: 100%;
+	height: 65px;
+	/* background-color: gray; */
+	margin-top: 40px;
+
+}
+.container .logo{
+	width: 100%;
+	height: 100%;
+	/* background: red; */
+}
+.container .find{
+	width: 100%;
+	height: 100%;
+	/* background-color: yellow; */
+}
+.container .find input{
+	width: 90%;
+	height: 45px;
+	outline: none;
+	border: none;
+	border: 1px solid #BDBDBD;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+.container .find button{
+	width: 9%;
+	height: 45px;
+	border: none;
+	background-color: #ED1C24;
+	cursor: pointer;
+}
+.container .hotline{
+	width: 100%;
+	height: 100%;
+	/* background-color: green; */
+}
+.container .hotline a:hover{
+	text-decoration: none;
+}
+.container .hotline a div{
+	width: 90%;
+	height: 40px;
+	background-color: #ED1C24;
+	margin-left: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.container .hotline a div p{
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+}
+.container .hotline p{
+	font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 10px;
+	padding-top: 5px;
+}
